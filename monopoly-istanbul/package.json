@@ -1,0 +1,14 @@
+{
+  "name": "monopoly-istanbul",
+  "version": "0.1.0",
+  "description": "Istanbul semtli, web arayuzlu, online oynanan emlak ticareti oyunu",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node packages/server/src/index.js",
+    "test": "node --test \"packages/**/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
